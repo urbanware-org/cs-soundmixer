@@ -1,0 +1,245 @@
+﻿The example below shows how the directory structure looks like for the following:
+
+    - Custom door sounds
+    - Custom explosion sounds
+    - Custom hostage sounds
+    - Custom player sounds
+        - Flesh hit sounds
+        - Helmet hit sounds
+        - Kevlar hit sounds
+        - Various death sounds
+        - Various pain sounds
+    - Custom sprayer sounds
+    - Custom weapon sounds
+        - AK47
+        - AWP
+        - Flashbang
+        - Glock 18
+        - MAC-10
+        - MP5
+        - P90
+        - Scout
+        - TMP
+        - UMP45
+        - USP silenced
+        - USP unsilenced
+
+Structure:
+
++-- _soundmixer
+    +-- doors
+    |   +-- doors_00000010.wav
+    |   +-- doors_00000020.wav
+    |   +-- doors_00000030.wav
+    |   +-- doors_00000040.wav
+    |   +-- doors_00000050.wav
+    |   +-- doors_00000060.wav
+    |   +-- doors_00000070.wav
+    |   +-- doors_00000080.wav
+    |   +-- doors_00000090.wav
+    |   +-- doors_00000100.wav
+    +-- explode
+    |   +-- explode_00000010.wav
+    |   +-- explode_00000020.wav
+    |   +-- explode_00000030.wav
+    |   +-- explode_00000040.wav
+    |   +-- explode_00000050.wav
+    |   +-- explode_00000060.wav
+    |   +-- explode_00000070.wav
+    |   +-- explode_00000080.wav
+    +-- hostage
+    |   +-- hostage_00000010.wav
+    |   +-- hostage_00000020.wav
+    |   +-- hostage_00000030.wav
+    |   +-- hostage_00000040.wav
+    |   +-- hostage_00000050.wav
+    |   +-- hostage_00000060.wav
+    |   +-- hostage_00000070.wav
+    |   +-- hostage_00000080.wav
+    |   +-- hostage_00000090.wav
+    |   +-- hostage_00000100.wav
+    |   +-- hostage_00000110.wav
+    |   +-- hostage_00000120.wav
+    |   +-- hostage_00000130.wav
+    |   +-- hostage_00000140.wav
+    +-- player
+    |   +-- bhit_flesh-.3
+    |   |   +-- bhit_flesh-.3_00000010.wav
+    |   |   +-- bhit_flesh-.3_00000020.wav
+    |   |   +-- bhit_flesh-.3_00000030.wav
+    |   |   +-- bhit_flesh-.3_00000040.wav
+    |   |   +-- bhit_flesh-.3_00000050.wav
+    |   |   +-- bhit_flesh-.3_00000060.wav
+    |   |   +-- bhit_flesh-.3_00000070.wav
+    |   |   +-- bhit_flesh-.3_00000080.wav
+    |   |   +-- bhit_flesh-.3_00000090.wav
+    |   |   +-- bhit_flesh-.3_00000100.wav
+    |   |   +-- bhit_flesh-.3_00000110.wav
+    |   |   +-- bhit_flesh-.3_00000120.wav
+    |   |   +-- bhit_flesh-.3_00000130.wav
+    |   |   +-- bhit_flesh-.3_00000140.wav
+    |   |   +-- bhit_flesh-.3_00000150.wav
+    |   |   +-- bhit_flesh-.3_00000160.wav
+    |   |   +-- bhit_flesh-.3_00000170.wav
+    |   |   +-- bhit_flesh-.3_00000180.wav
+    |   |   +-- bhit_flesh-.3_00000190.wav
+    |   |   +-- bhit_flesh-.3_00000200.wav
+    |   |   +-- bhit_flesh-.3_00000210.wav
+    |   +-- bhit_helmet-.1
+    |   |   +-- bhit_helmet-.1_00000010.wav
+    |   |   +-- bhit_helmet-.1_00000020.wav
+    |   |   +-- bhit_helmet-.1_00000030.wav
+    |   |   +-- bhit_helmet-.1_00000040.wav
+    |   |   +-- bhit_helmet-.1_00000050.wav
+    |   |   +-- bhit_helmet-.1_00000060.wav
+    |   |   +-- bhit_helmet-.1_00000070.wav
+    |   |   +-- bhit_helmet-.1_00000080.wav
+    |   |   +-- bhit_helmet-.1_00000090.wav
+    |   |   +-- bhit_helmet-.1_00000100.wav
+     |   +-- bhit_kevlar-.1
+    |   |   +-- bhit_kevlar-.1_00000010.wav
+    |   |   +-- bhit_kevlar-.1_00000020.wav
+    |   |   +-- bhit_kevlar-.1_00000030.wav
+    |   |   +-- bhit_kevlar-.1_00000040.wav
+    |   |   +-- bhit_kevlar-.1_00000050.wav
+    |   |   +-- bhit_kevlar-.1_00000060.wav
+    |   |   +-- bhit_kevlar-.1_00000070.wav
+    |   |   +-- bhit_kevlar-.1_00000080.wav
+    |   |   +-- bhit_kevlar-.1_00000090.wav
+    |   |   +-- bhit_kevlar-.1_00000100.wav
+    |   |   +-- bhit_kevlar-.1_00000110.wav
+    |   |   +-- bhit_kevlar-.1_00000120.wav
+    |   |   +-- bhit_kevlar-.1_00000130.wav
+    |   |   +-- bhit_kevlar-.1_00000140.wav
+    |   |   +-- bhit_kevlar-.1_00000150.wav
+    |   |   +-- bhit_kevlar-.1_00000160.wav
+    |   +-- death.6
+    |   |   +-- death.6_00000010.wav
+    |   |   +-- death.6_00000020.wav
+    |   |   +-- death.6_00000030.wav
+    |   |   +-- death.6_00000040.wav
+    |   |   +-- death.6_00000050.wav
+    |   |   +-- death.6_00000060.wav
+    |   |   +-- death.6_00000070.wav
+    |   |   +-- death.6_00000080.wav
+    |   +-- die.3
+    |   |   +-- die.3_00000010.wav
+    |   |   +-- die.3_00000020.wav
+    |   |   +-- die.3_00000030.wav
+    |   |   +-- die.3_00000040.wav
+    |   |   +-- die.3_00000050.wav
+    |   |   +-- die.3_00000060.wav
+    |   |   +-- die.3_00000070.wav
+    |   |   +-- die.3_00000080.wav
+    |   |   +-- die.3_00000090.wav
+    |   |   +-- die.3_00000100.wav
+    |   |   +-- die.3_00000110.wav
+    |   |   +-- die.3_00000120.wav
+    |   +-- headshot.3
+    |   |   +-- headshot.3_00000010.wav
+    |   |   +-- headshot.3_00000020.wav
+    |   |   +-- headshot.3_00000030.wav
+    |   |   +-- headshot.3_00000040.wav
+    |   |   +-- headshot.3_00000050.wav
+    |   |   +-- headshot.3_00000060.wav
+    |   |   +-- headshot.3_00000070.wav
+    |   |   +-- headshot.3_00000080.wav
+    |   |   +-- headshot.3_00000090.wav
+    |   |   +-- headshot.3_00000100.wav
+    |   |   +-- headshot.3_00000110.wav
+    |   +-- pl_fallpain.3
+    |   |   +-- pl_fallpain.3_00000010.wav
+    |   |   +-- pl_fallpain.3_00000020.wav
+    |   |   +-- pl_fallpain.3_00000030.wav
+    |   |   +-- pl_fallpain.3_00000040.wav
+    |   |   +-- pl_fallpain.3_00000050.wav
+    |   |   +-- pl_fallpain.3_00000060.wav
+    |   |   +-- pl_fallpain.3_00000070.wav
+    |   |   +-- pl_fallpain.3_00000080.wav
+    |   |   +-- pl_fallpain.3_00000090.wav
+    |   |   +-- pl_fallpain.3_00000100.wav
+    |   +-- pl_jump.2
+    |   |   +-- pl_jump.2_00000010.wav
+    |   |   +-- pl_jump.2_00000020.wav
+    |   |   +-- pl_jump.2_00000030.wav
+    |   +-- pl_pain.7
+    |   |   +-- pl_pain.7_00000010.wav
+    |   |   +-- pl_pain.7_00000020.wav
+    |   |   +-- pl_pain.7_00000030.wav
+    |   |   +-- pl_pain.7_00000040.wav
+    |   |   +-- pl_pain.7_00000050.wav
+    |   |   +-- pl_pain.7_00000060.wav
+    |   |   +-- pl_pain.7_00000070.wav
+    |   |   +-- pl_pain.7_00000080.wav
+    |   |   +-- pl_pain.7_00000090.wav
+    |   +-- pl_shot.1
+    |       +-- pl_shot.1_00000010.wav
+    +-- sprayer
+    |   +-- sprayer_00000010.wav
+    |   +-- sprayer_00000020.wav
+    |   +-- sprayer_00000030.wav
+    |   +-- sprayer_00000040.wav
+    |   +-- sprayer_00000050.wav
+    +-- weapons
+        +-- ak47-.2
+        |   +-- ak47-.2_00000010.wav
+        |   +-- ak47-.2_00000020.wav
+        |   +-- ak47-.2_00000030.wav
+        |   +-- ak47-.2_00000040.wav
+        +-- awp.1
+        |   +-- awp.1_00000010.wav
+        |   +-- awp.1_00000020.wav
+        |   +-- awp.1_00000030.wav
+        |   +-- awp.1_00000040.wav
+        |   +-- awp.1_00000050.wav
+        +-- flashbang-.2
+        |   +-- flashbang-.2_00000010.wav
+        |   +-- flashbang-.2_00000020.wav
+        |   +-- flashbang-.2_00000030.wav
+        +-- glock18-.2
+        |   +-- glock18-.2_00000010.wav
+        |   +-- glock18-.2_00000020.wav
+        |   +-- glock18-.2_00000030.wav
+        |   +-- glock18-.2_00000040.wav
+        |   +-- glock18-.2_00000050.wav
+        |   +-- glock18-.2_00000060.wav
+        |   +-- glock18-.2_00000070.wav
+        |   +-- glock18-.2_00000080.wav
+        +-- mac10-.1
+        |   +-- mac10-.1_00000010.wav
+        |   +-- mac10-.1_00000020.wav
+        |   +-- mac10-.1_00000030.wav
+        +-- mp5-.2
+        |   +-- mp5-.2_00000010.wav
+        |   +-- mp5-.2_00000020.wav
+        +-- p90-.1
+        |   +-- p90-.1_00000010.wav
+        |   +-- p90-.1_00000020.wav
+        |   +-- p90-.1_00000030.wav
+        +-- scout_fire-.1
+        |   +-- scout_fire-.1_00000010.wav
+        |   +-- scout_fire-.1_00000020.wav
+        |   +-- scout_fire-.1_00000030.wav
+        |   +-- scout_fire-.1_00000040.wav
+        +-- tmp-.2
+        |   +-- tmp-.2_00000010.wav
+        |   +-- tmp-.2_00000020.wav
+        +-- ump45-.1
+        |   +-- ump45-.1_00000010.wav
+        |   +-- ump45-.1_00000020.wav
+        |   +-- ump45-.1_00000030.wav
+        |   +-- ump45-.1_00000040.wav
+        |   +-- ump45-.1_00000050.wav
+        |   +-- ump45-.1_00000060.wav
+        +-- usp.2
+        |   +-- usp.2_00000010.wav
+        |   +-- usp.2_00000020.wav
+        |   +-- usp.2_00000030.wav
+        |   +-- usp.2_00000040.wav
+        |   +-- usp.2_00000050.wav
+        |   +-- usp.2_00000060.wav
+        |   +-- usp.2_00000070.wav
+        +-- usp_unsil-.1
+            +-- usp_unsil-.1_00000010.wav
+            +-- usp_unsil-.1_00000020.wav
+            +-- usp_unsil-.1_00000030.wav

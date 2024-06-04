@@ -1,0 +1,36 @@
+The installation and configuration of the program is a little fiddly and not documented very good, but it was never intended for general use.
+
+The SoundMixer must be copied into the game directory, for example:
+
+    C:\Program Files\Counter-Strike 1.6
+
+The path can be modified inside the file "SoundMixer.ini", which must be in the same directory as its executable.
+
+For example, if you want to customize the headshot and flesh wound hit sounds, create the following sub-directories:
+
+    _soundmixer\player\headshot.3
+    _soundmixer\player\bhit_flesh-.3
+
+The directory names must be structured as shown above. The number at the end of the directory name indicates how many sounds Counter-Strike expects for this sound type, for example:
+
+    headshot1.wav
+    headshot2.wav
+    headshot3.wav
+
+Therefore, at least 3 sounds must be stored in this directory (you should or must add more as the SoundMixer would be useless). The dot in the name is the separator. It doesn't matter what the files in the "headshot.3" directory are called, the SoundMixer picks out three at random, names them correctly and copies them into the Counter-Strike sound directory. By the way, inside the sound directories you can get the name of each sound as well as the number of files Counter-Strike expects.
+
+The same applies to the sound files in "bhit_flesh-.3", where there are also three sound files that Counter-Strike expects. The tool also retrieves three random files from there and names them as follows:
+
+    bhit_flesh-1.wav
+    bhit_flesh-2.wav
+    bhit_flesh-3.wav
+
+The same principle also applies to the weapon sounds. With the hostage and sprayer sounds it is a little easier, there are no sub-directories, just a large pool from which a certain number of randomly determined files are renamed and copied into the Counter-Strike sound directory.
+
+Inside the file "Example.txt" you can see a detailed directory structure example.
+
+Finally, the SoundMixer calls the command file "Counter-Strike.cmd" inside the same directory. You may have to create the file and add the command to run Counter-Strike, for example
+
+    @C:\Program Files\Counter-Strike 1.6\cstrike.exe
+
+or whatever. The reason for this is, that the SoundMixer is the one that launches the game after mixing the sound files. So, if you start Counter-Strike with special command-line arguments you can add them to the command file.
